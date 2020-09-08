@@ -3,9 +3,7 @@ arr = []
 rev = []
   arr << string.split(" ")
 
-  arr.each { |str|  }
-
-  rev << str.reverse
+  arr.each { |str| rev << str.reverse }
   end
-end
+
 end
