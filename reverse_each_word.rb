@@ -12,7 +12,7 @@ letter = []
   word.each do |thing|
 binding.pry
   letter << thing.split
-  
+
   puts letter
   end
 
