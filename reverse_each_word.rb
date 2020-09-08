@@ -8,3 +8,4 @@ rev = []
   rev << str.reverse
   end
 end
+end
