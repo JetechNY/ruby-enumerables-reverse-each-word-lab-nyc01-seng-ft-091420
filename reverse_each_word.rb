@@ -10,8 +10,9 @@ letter = []
   word << sentence.split(" ")
 
   word.each do |thing|
+binding.pry
   letter << thing.split
-  binding.pry
+  
   puts letter
   end
 
