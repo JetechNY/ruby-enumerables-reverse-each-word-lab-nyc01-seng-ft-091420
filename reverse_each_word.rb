@@ -8,9 +8,10 @@ def reverse_each_word(sentence)
 word = []
 letter = []
   word << sentence.split(" ")
-binding.pry
+
   word.each do |let|
   letter << let.split("")
+  binding.pry
   puts letter
   end
 
