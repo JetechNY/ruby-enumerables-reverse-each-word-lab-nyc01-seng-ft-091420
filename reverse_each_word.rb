@@ -6,4 +6,5 @@ rev = []
   arr.each do |str|
   rev << str.reverse
   end
+rev
 end
