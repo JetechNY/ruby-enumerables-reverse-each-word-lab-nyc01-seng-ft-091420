@@ -5,5 +5,3 @@ rev = []
 
   arr.each { |str| rev << str.reverse }
   end
-
-end
