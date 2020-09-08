@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
 arr = []
 word = []
 letter = []
-  word << string.split(" ")
+  word << sentence.split(" ")
   word.each do |let|
   letter << let.split("")
 puts letter
