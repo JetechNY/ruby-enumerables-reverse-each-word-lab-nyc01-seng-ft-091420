@@ -3,7 +3,7 @@ arr = []
 rev = []
   arr << string.split(" ")
   arr.each do |str|
-  rev += str.reverse!
+  puts str.reverse
   end
 rev
 end
