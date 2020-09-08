@@ -4,7 +4,7 @@ rev = []
   arr << string.split(" ")
 
   arr.each do |str|
-  rev << str.reverse
+  rev = rev + str.reverse
   end
 rev
 end
