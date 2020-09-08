@@ -3,17 +3,27 @@ require 'pry'
 def reverse_each_word(sentence)
 
 # sentence.reverse.split.reverse.join " "
-# arr = []
+arr = []
 
 wordarr = []
 letter = []
   wordarr << sentence.split(" ")
 
   wordarr.each do |thing|
-  letter << thing.split("")
-binding.pry
-  puts letter
-  end
+  arr << reversed(thing)
 
-  puts letter
+  end
+  arr
+end
+
+def reverse(word)
+
+reversed = " "
+  i= 0
+  while i < word.length
+    char = word[i] 
+    reversed =   char +	reversed
+    i += 1
+  end    
+      return reversed
 end
