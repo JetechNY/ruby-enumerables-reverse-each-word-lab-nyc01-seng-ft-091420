@@ -3,6 +3,6 @@ arr = []
   arr << string.split(" ")
 
   arr.each { |str|  }
-  str.reverse 
+  str.reverse
   end
 end
