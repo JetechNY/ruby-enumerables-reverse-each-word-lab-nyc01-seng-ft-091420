@@ -27,5 +27,3 @@ letter = []
   end
   arr
 end
-
-
