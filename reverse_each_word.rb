@@ -10,9 +10,9 @@ letter = []
   word << sentence.split(" ")
 
   word.each_char do |thing|
-binding.pry
-  letter << thing.split
 
+  letter << thing.split
+binding.pry
   puts letter
   end
 
