@@ -9,7 +9,7 @@ word = []
 letter = []
   word << sentence.split(" ")
 
-  word.each do |thing|
+  word.each_char do |thing|
 binding.pry
   letter << thing.split
 
