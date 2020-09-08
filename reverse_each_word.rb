@@ -1,5 +1,5 @@
-def reverse_each_word(string)
-sentence1 = []
+def reverse_each_word(sentence)
+arr = []
 word = []
 letter = []
   word << string.split(" ")
