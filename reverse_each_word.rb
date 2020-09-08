@@ -1,7 +1,7 @@
 require 'pry'
 
 
-def reverse_each_word(word)
+def reverse_each_word(sent)
 
   words=sent.split(" ")
   new_words = []
