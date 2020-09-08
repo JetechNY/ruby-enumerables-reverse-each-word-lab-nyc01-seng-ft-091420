@@ -1,12 +1,11 @@
 def reverse_each_word(string)
-arr = []
-rev = []
-arr2 = []
-  arr << string.split(" ")
-  puts arr
-  arr.each do |str|
-  arr2 << str.split("")
-
+sentence1 = []
+word = []
+letter = []
+  word << string.split(" ")
+  word.each do |let|
+  letter << let.split("")
+puts letter
   end
   arr2
 end
