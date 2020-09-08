@@ -10,7 +10,7 @@ letter = []
   wordarr << sentence.split(" ")
 
   wordarr.each do |thing|
-  puts reverse(thing)
+  arr = arr + reverse(thing)
 
   end
   arr
