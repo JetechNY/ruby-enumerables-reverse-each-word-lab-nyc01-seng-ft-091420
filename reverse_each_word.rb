@@ -10,4 +10,3 @@ def reverse_each_word(sent)
   return new_sent
   end
 
-end
