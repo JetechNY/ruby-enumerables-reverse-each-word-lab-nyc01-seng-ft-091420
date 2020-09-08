@@ -9,4 +9,3 @@ def reverse_each_word(sent)
   new_sent = new_words.join(" ")
   return new_sent
   end
-
