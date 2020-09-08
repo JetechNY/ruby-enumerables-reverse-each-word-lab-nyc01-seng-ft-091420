@@ -7,5 +7,5 @@ letter = []
   letter << let.split("")
 puts letter
   end
-  arr2
+  puts letter
 end
