@@ -7,5 +7,5 @@ def reverse_each_word(sent)
   new_words = []
   words.collect { |word| new_words << word.reverse}
   new_sent = new_words.join(" ")
-  return new_sent
+  puts new_sent
   end
